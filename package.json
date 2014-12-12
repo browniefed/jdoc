@@ -1,0 +1,15 @@
+{
+  "name": "jama-doc",
+  "version": "0.0.0",
+  "description": "Parse docx files and convert them to requirements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Brown <browniefed@gmail.com> (http://browniefed.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "gm": "^1.17.0",
+    "node-uuid": "^1.4.2"
+  }
+}
