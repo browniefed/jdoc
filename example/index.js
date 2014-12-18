@@ -8,6 +8,8 @@ JamaDoc.parse('./Customer4.docx', function(convertedDoc) {
 var toc = convertedDoc.parseTableOfContents();
 var headings = convertedDoc.parseHeadings();
 var content = convertedDoc.parseContent();
+debugger;
+fs.writeJson('./content.json', content);
 //Detect table of contents
 //If none then start detecting hierarchy
 //We don't necessarily need headings we just need to identify hierarchy
