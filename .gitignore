@@ -1,3 +1,4 @@
 Customer*.*
 node_modules
 tmp
+content.json
